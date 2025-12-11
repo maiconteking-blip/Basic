@@ -1,0 +1,6 @@
+numeros = [15,34,22,41,55,77,89,120] 
+maior = numeros [0]
+for numero in numeros:
+  if numero > maior:
+      maior = numero
+print(f"O maior número da lista é {maior}")
