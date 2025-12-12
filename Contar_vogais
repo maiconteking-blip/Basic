@@ -1,0 +1,9 @@
+def contar_vogais(texto):
+    vogais = "aeiouáéíóúâêîôûàèìòùAEIOUÁÉÍÓÚÂÊÎÔÛÀÈÌÒÙ"
+    contador = 0
+    for vogal in texto:    
+      if vogal in vogais:
+          contador += 1
+    return contador
+frase = "estudante de programação"
+print(contar_vogais(frase))
